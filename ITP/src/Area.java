@@ -15,11 +15,17 @@ public class Area {
 	
 	public static void main(String[] dims) {
 		// Here's the plan:
-		//   Get each value of dims into a variable i.e. 
+		// Get each value of dims into a variable i.e. 
 		String length = dims[0];
 		String width = dims[1];
 		//   Missing: Covert length and width into actual integers and multiply
 		//   Missing: Print the area followed by the word "inches"
+		int newLegth = Integer.parseInt(length);
+		int newWidth = Integer.parseInt(width);
+		
+		int area = newLength * newWidth;
+		
+		System.out.println(area+" inches");
 	}
 
 }
